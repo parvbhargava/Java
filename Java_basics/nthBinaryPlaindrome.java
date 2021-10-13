@@ -17,7 +17,7 @@ public class nthBinaryPlaindrome {
         Integer n = scan.nextInt();
         int flag = 0;
         System.out.println("The "+n+"th palindrome is: ");
-        for(int i=0;i<100;i++){
+        for(int i=0;i<Integer.MAX_VALUE;i++){
             if (isPalindrome(i)) {
                 flag++;         
             }
